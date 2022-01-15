@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+   }
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+        background-color:#1f2937;   
+    margin: -10px;
+    font-size: 24px;
+} 
+.header p{
+    color:#f9faf8;
+    font-weight: bold;
+    
+}
+a{
+    font-size: 18px;
+    color:#e5e7eb;
+    text-decoration: none;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+h2{
+    font-weight: bolder;
+}
+.intro{
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #1f2937;
+    margin: -10px;
+    padding: 30px;
+    color:#e5e7eb;
+    font-size: 18px;
+        
+}
+.text{
+    width: 400px;
+}
+.randominfo{
+    display:flex;
+    
+    flex-direction:column;
+    align-items: center;
+    margin-top: 40px;
+}
+.container{
+   display:flex;
+   gap: 30px;
+}
+.card{
+    width:150px;
+    text-align: center;
+}
+.quote{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 50px;
+    background-color: #e5e7eb;
+    padding: 50px;
+
+        }
+.quotetext{
+    width: 1000px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    
+}   
+.two{
+    text-align: right;
+}
+.signup{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin:auto;
+    padding: 20px 80px 20px 80px;
+    gap:100px;
+}
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color:white;
+    margin: -10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.intro button{
+    border-radius: 5px;
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    background-color: #3882f6;
+}
+.card img{
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+.quotetext.two{
+        font-weight:1000;
+}
+.signuptext p:first-child{
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+}
+.signuptext p{
+    color:white;
+    line-height: 5px;
+}
+.signup button{
+    background-color: #3882f6;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+}
